@@ -25,7 +25,7 @@ Users should be able to:
 ### Screenshot
 
 Access here:
-/screenshot.jpg
+![](./screenshot.jpg)
 
 ### Links
 
