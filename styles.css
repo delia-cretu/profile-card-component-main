@@ -1,0 +1,121 @@
+body {
+  background-color: #19a2ae;
+  background-image: url(images/bg-pattern-bottom.svg),
+    url(images/bg-pattern-top.svg);
+  background-position: 130% -140%, -50% 170%;
+  background-repeat: no-repeat;
+}
+
+hr {
+  display: block;
+  border-width: 1px;
+  color: #969696;
+}
+
+/* CSS Grid Layout */
+
+.grid-wrapper {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  height: 355px;
+  width: 325px;
+  border-radius: 3%;
+  overflow: hidden;
+  box-shadow: 10px 15px 30px 0px #16919c;
+
+  background-color: white;
+}
+
+/* CSS Grid Styling */
+
+/* Image section */
+
+.img-background {
+  width: 100%;
+  position: relative;
+}
+
+.img-profile {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+
+  border: 5px solid white;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+/* Defining general styles */
+
+.style1,
+.style2 {
+  font-style: normal;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.125rem;
+}
+
+.style1 {
+  font-weight: 700;
+  color: #2d3248;
+}
+
+.style2 {
+  font-weight: 400;
+}
+
+/* Profile info section */
+
+.profile-info {
+  text-align: center;
+  padding-top: 70px;
+}
+
+#profile-age,
+#profile-city,
+.object {
+  color: #6a6f81;
+}
+
+#profile-city {
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+
+/* Stats section */
+
+.profile-stats {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.object {
+  font-size: 0.6rem;
+  letter-spacing: 0.05rem;
+  padding: 0px 30px;
+}
+
+/* Media query for mobile responsive background */
+
+@media (max-width: 600px) {
+  body {
+    background-color: #19a2ae;
+    background-image: url(images/bg-pattern-bottom.svg),
+      url(images/bg-pattern-top.svg);
+    background-position: -50% -130%, 145% 240%;
+    background-repeat: no-repeat;
+  }
+}
+
+/* Footer */
+
+.attribution {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  font-size: 0.75rem;
+}
